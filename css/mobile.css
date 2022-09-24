@@ -26,6 +26,8 @@ main
 
 .main-container
 {
+    width: 100%;
+    min-width: 375px;
     display: flex;
     flex-direction: column;
     height: auto;
