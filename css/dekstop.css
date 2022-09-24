@@ -1,0 +1,51 @@
+main
+{
+    height: 100vh;
+    display: grid;   
+}
+
+.main-container
+{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-product
+{
+    line-height: 3rem;
+}
+
+.image-product
+{
+    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+.store-product
+{
+    
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    height: 400px;
+    max-width: 270px;
+    padding: 25px;
+}
+
+.price-previous
+{
+    justify-self: center;
+}
+
+
+.icon-cart
+{
+    left: calc(100% - 170px);
+}
+
+.button
+{
+    height: 40px;
+}

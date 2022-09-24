@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/dekstop.css" media="(min-width: 600px)">
+  
+  <title>Frontend Mentor</title>
+</head>
+<body>
+  <main>
+    <div class="main-container">
+      <picture>
+        <source srcset="./images/image-product-desktop.jpg" media="(min-width: 600px)">
+        <img src="./images/image-product-mobile.jpg" alt="imagen del producto" class="image-product">
+      </picture>
+      <div class="store-product">
+          <div class="store-product--text">
+            <p class="type-product">perfume</p>
+            <h1 class="name-product">gabrielle essence eau de parfum</h1>
+            <p class="description-product">A florar, solar and voluptuous interpretation composed by Oliver Polge,
+              Perfumer-Creator for the House of CHANNEL.
+            </p>
+          </div>
+          <div class="store-product--buy">
+              <p class="price-current">$149.99</p>
+              <p class="price-previous">$169.99</p>
+          </div>
+          <div class="align-button">
+            <button class="button"><span class="icon-cart"></span> Add to Cart</button>
+          </div>
+      </div>
+    </div>
+  </main>
+ 
+</body>
+</html>
